@@ -1,5 +1,8 @@
 public class Main {
   public static void main(String[] args) {
-    //Write your code here
+    int Speed = 20;
+    int timeSpentMoving = 5;
+    int Distance = Speed * timeSpentMoving;
+    System.out.print("Distance: " + Distance);
   }
 }
